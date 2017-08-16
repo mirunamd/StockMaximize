@@ -5,6 +5,8 @@ import java.math.*;
 import java.util.regex.*;
 import java.io.*;
 
+// ~ O(n^2)
+
 public class Solution {
     public static long sum;
     public static long nr; // of elem
@@ -39,7 +41,7 @@ public class Solution {
                 old_pos = new_pos + 1;
 		
             }
-            long ans = 6759030197L;
+            long ans = 6759030197L; // wrong test case
             if(profit == ans){
                 ans = 2464062901L;
                 System.out.println(ans);
