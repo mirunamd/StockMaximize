@@ -8,11 +8,11 @@ The first line contains the number of test cases T. T test cases follow: The fir
 
 **Constraints**
 
-1 <= T <= 10
+- 1 <= T <= 10
 
-1 <= N <= 50000
+- 1 <= N <= 50000
 
-All share prices are between 1 and 100000 
+- All share prices are between 1 and 100000 
 
 **Output Format**
 
@@ -45,3 +45,5 @@ Output T lines, containing the maximum profit which can be obtained for the corr
 **Explanation** 
 
 For the first case, you cannot obtain any profit because the share price never rises. For the second case, you can buy one share on the first two days, and sell both of them on the third day. For the third case, you can buy one share on day 1, sell one on day 2, buy one share on day 3, and sell one share on day 4.
+
+https://www.hackerrank.com/challenges/stockmax?h_r=internal-search
